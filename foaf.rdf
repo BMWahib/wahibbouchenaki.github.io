@@ -12,7 +12,7 @@
     <foaf:mbox rdf:resource="mailto:mbouchen@etidiant.univ-lr.fr"/>
 
     <!-- Remplacez par l'URL de votre page d'accueil personnelle -->
-    <foaf:homepage rdf:resource="http://www.mypersonalsite.x10.bz/"/>
+    <foaf:homepage rdf:resource="https://bmwahib.github.io/wahibbouchenaki.github.io/foaf.rdf"/>
 
     <!-- Remplacez par l'URL de votre photo ou avatar (optionnel) -->
     <foaf:img rdf:resource="http://www.votrehomepage.com/votrephoto.jpg"/>
