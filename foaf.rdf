@@ -19,15 +19,21 @@
     <foaf:gender>Male</foaf:gender>
     
   </foaf:Person>
-
 <foaf:knows>
- <foaf:Person rdf:about="https://bsaintmars.github.io/foaf.rdf">
- <foaf:name>Saint-Mars Benji</foaf:name>
- <foaf:mbox rdf:resource="mailto:benjamin.saint-mars@etudiant.univ-lr.fr"/>
- <foaf:homepage rdf:resource="https://bsaintmars.github.io/"/>
- <foaf:nick>bsaintmars</foaf:nick>
- <foaf:title>Etudiant en Master Informatique</foaf:title>
- </foaf:Person>
- </foaf:knows>
+          <foaf:Person rdf:about="https://bsaintmars.github.io/foaf.rdf">
+         
+                   <foaf:name>Saint-Mars Benji</foaf:name>
+                  
+                   <foaf:mbox rdf:resource="mailto:benjamin.saint-mars@etudiant.univ-lr.fr"/>
+                  
+                   <foaf:homepage rdf:resource="https://bsaintmars.github.io/"/>
+                  
+                   <foaf:nick>bsaintmars</foaf:nick>
+                  
+                   <foaf:title>Etudiant en Master Informatique</foaf:title>
+         
+          </foaf:Person>
+
+</foaf:knows>
 
 </rdf:RDF>
