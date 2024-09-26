@@ -26,6 +26,8 @@
             <xsl:attribute name="src">
               <xsl:value-of select="//foaf:img/@rdf:resource"/>
             </xsl:attribute>
+            <xsl:attribute name="width">150</xsl:attribute>
+            <xsl:attribute name="height">150</xsl:attribute>
           </img>
         </p>
         <p><strong>Surnom:</strong> <xsl:value-of select="//foaf:nick"/></p>
