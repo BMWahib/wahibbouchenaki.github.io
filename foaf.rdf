@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/">
+
+  <!-- Informations personnelles de base -->
+  <foaf:Person>
+    <!-- Remplacez par votre nom complet -->
+    <foaf:name>Wahib Bouchenaki</foaf:name>
+
+    <!-- Remplacez par votre adresse email -->
+    <foaf:mbox rdf:resource="mailto:mbouchen@etidiant.univ-lr.fr"/>
+
+    <!-- Remplacez par l'URL de votre page d'accueil personnelle -->
+    <foaf:homepage rdf:resource="http://www.mypersonalsite.x10.bz/"/>
+
+    <!-- Remplacez par l'URL de votre photo ou avatar (optionnel) -->
+    <foaf:img rdf:resource="http://www.votrehomepage.com/votrephoto.jpg"/>
+
+    <!-- Nom d'utilisateur -->
+    <foaf:nick>mbouchen</foaf:nick>
+    <!-- Genre -->
+    <foaf:gender>Male</foaf:gender>
+    
+  </foaf:Person>
+
+</rdf:RDF>
