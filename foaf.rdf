@@ -15,7 +15,7 @@
     <foaf:homepage rdf:resource="https://bmwahib.github.io/wahibbouchenaki.github.io/foaf.rdf"/>
 
     <!-- Remplacez par l'URL de votre photo ou avatar (optionnel) -->
-    <foaf:img rdf:resource="http://www.votrehomepage.com/votrephoto.jpg"/>
+    <foaf:img rdf:resource="orange.jpeg"/>
 
     <!-- Nom d'utilisateur -->
     <foaf:nick>mbouchen</foaf:nick>
