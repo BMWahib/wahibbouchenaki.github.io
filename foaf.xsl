@@ -32,6 +32,27 @@
         </p>
         <p><strong>Surnom:</strong> <xsl:value-of select="//foaf:nick"/></p>
         <p><strong>Genre:</strong> <xsl:value-of select="//foaf:gender"/></p>
+
+        <div>
+           <h2>Connaissances</h2>
+             <xsl:for-each select="foaf:Person/foaf:knows/foaf:Person">
+             <div class="friend">
+             <h3><xsl:value-of select="foaf:name"/></h3>
+             <p><strong>Email :</strong>
+             <a href="{foaf:mbox/@rdf:resource}">
+             <xsl:value-of select="foaf:mbox/@rdf:resource"/>
+             </a>
+             </p>
+             <p><strong>Page d'accueil :</strong>
+             <a href="{foaf:homepage/@rdf:resource}">
+             <xsl:value-of select="foaf:homepage/@rdf:resource"/>
+             </a>
+             </p>
+             <p><strong>Nom d'utilisateur :</strong> <xsl:value-of select="foaf:nick"/></p>
+             <p><strong>Titre :</strong> <xsl:value-of select="foaf:title"/></p>
+       </div>
+ </xsl:for-each>
+</div>
       </body>
     </html>
   </xsl:template>
